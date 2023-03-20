@@ -1,0 +1,27 @@
+# packaging
+pip>=9
+setuptools>=26
+twine
+wheel>=0.29
+
+# data science
+math
+numpy
+pandas
+csv
+os
+random
+PIL
+matplotlib.pyplot
+sklearn
+torch
+torchvision
+python-dotenv
+
+# api
+fastapi
+uvicorn
+python-multipart
+
+# img
+opencv-python
