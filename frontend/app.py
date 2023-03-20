@@ -1,6 +1,4 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
 from io import StringIO
 import imgkit
 from PIL import Image
@@ -14,6 +12,14 @@ st.set_page_config(
    initial_sidebar_state="expanded",
 )
 
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.title("Learning :yellow[:orange[from]] :yellow[Imagery] 📸")
+
+with col3:
+    image = Image.open('pinguim_filhote.jpeg')
+    st.image(image, caption='fluffy baby penguin')
+
     # Example local Docker container URL
     # url = 'http://api:8000'
     # Example localhost development URL
@@ -21,12 +27,8 @@ st.set_page_config(
     # load_dotenv()
     # url = os.getenv('API_URL')
 
-st.title("Learning yellow Imagery 📸")
 
-st.subheader("")
-st.subheader("")
-
-st.subheader("""Do you want to know how many peguins are nesting?
+st.subheader("""Do you want to know how many penguins are in your photo?🤓🔎
 ##
 ## Upload your photo here 👇 
 """)
