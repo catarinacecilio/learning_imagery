@@ -3,6 +3,7 @@ from io import StringIO
 import imgkit
 from PIL import Image
 from dotenv import load_dotenv
+import requests
 
 # Set page tab display
 st.set_page_config(
@@ -27,7 +28,7 @@ with col3:
     # Example local Docker container URL
     # url = 'http://api:8000'
     # Example localhost development URL
-    # url = 'http://localhost:8000'
+ url = 'http://localhost:8000'
     # load_dotenv()
     # url = os.getenv('API_URL')
 
