@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from starlette.responses import Response
 
 from penguin_rec.penguin_rec import annotate_img
-
+import cv2
 import numpy as np
 import io
 app = FastAPI()
