@@ -19,7 +19,7 @@ with col1:
 
 with col2:
     image = Image.open('frontend/bounding_box.png')
-    st.image(image, caption='bouding box')
+    st.image(image, caption='bounding box')
 
 with col3:
     image = Image.open('frontend/pinguim_filhote.jpeg')
