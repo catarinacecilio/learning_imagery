@@ -33,7 +33,7 @@ url = 'https://lapse-image-dmllgjr73q-uc.a.run.app'
     # url = os.getenv('API_URL')
 
 
-st.subheader("""Do you want to count objects? Let's start with penguins!!! 🤓🔎
+st.subheader("""Do you want to detect objects? Let's start with penguins!!! 🤓🔎
 ##
 ## Upload your photo here 👇
 """)
