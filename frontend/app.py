@@ -16,21 +16,25 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.title("Learning :yellow[:orange[from]] :yellow[Imagery] 📸")
 
+with col2:
+    image = Image.open('bounding_box.png')
+    st.image(image, caption='bouding box')
+
 with col3:
     image = Image.open('pinguim_filhote.jpeg')
-    st.image(image, caption='fluffy baby penguin')
+    st.image(image, caption='baby penguin')
 
     # Example local Docker container URL
     # url = 'http://api:8000'
     # Example localhost development URL
-url = 'http://localhost:8000'
+    # url = 'http://localhost:8000'
     # load_dotenv()
     # url = os.getenv('API_URL')
 
 
-st.subheader("""Do you want to know how many penguins are in your photo?🤓🔎
+st.subheader("""Do you want to count objects? Let's start with penguins!!! 🤓🔎
 ##
-## Upload your photo here 👇 
+## Upload your photo here 👇
 """)
 
 st.subheader("")
@@ -68,4 +72,3 @@ st.subheader("""
 
 # Dataset
 st.write("🐧 dataset used 🐧[link] (https://www.robots.ox.ac.uk/~vgg/data/penguins/)")
-
