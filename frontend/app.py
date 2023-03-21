@@ -23,7 +23,7 @@ with col2:
 
 with col3:
     image = Image.open('frontend/pinguim_filhote.jpeg')
-    st.image(image, caption='baby penguin')
+    st.image(image, caption='baby')
 
     # Example local Docker container URL
     # url = 'http://api:8000'
