@@ -28,7 +28,7 @@ with col3:
     # Example local Docker container URL
     # url = 'http://api:8000'
     # Example localhost development URL
- url = 'https://lapse-image-dmllgjr73q-uc.a.run.app'
+url = 'https://lapse-image-dmllgjr73q-uc.a.run.app'
     # load_dotenv()
     # url = os.getenv('API_URL')
 
