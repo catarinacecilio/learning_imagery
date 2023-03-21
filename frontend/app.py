@@ -18,11 +18,11 @@ with col1:
     st.title("Learning :yellow[:orange[from]] :yellow[Imagery] 📸")
 
 with col2:
-    image = Image.open('bounding_box.png')
+    image = Image.open('frontend/bounding_box.png')
     st.image(image, caption='bouding box')
 
 with col3:
-    image = Image.open('pinguim_filhote.jpeg')
+    image = Image.open('frontend/pinguim_filhote.jpeg')
     st.image(image, caption='baby penguin')
 
     # Example local Docker container URL
