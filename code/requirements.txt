@@ -1,0 +1,25 @@
+# packaging
+pip>=9
+setuptools>=26
+twine
+wheel>=0.29
+
+# api
+fastapi
+uvicorn
+python-multipart
+
+# img
+opencv-python
+pillow
+
+# web
+streamlit
+requests
+python-dotenv
+
+# data science
+numpy
+six
+torch
+torchvision
